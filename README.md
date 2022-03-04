@@ -1,24 +1,49 @@
-# JAMStack personal blog - starter files
+<p align="center"><img src="https://www.11ty.dev/img/logo-github.png" alt="eleventy Logo"></p>
 
-These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.
+# eleventy 🕚⚡️
 
-The provided files are finished pages using regular HTML and CSS. The HTML files can be broken down into peices, and used to build out the different templates and partial files using a templating language of your choice.
+A simpler static site generator. An alternative to Jekyll. Written in JavaScript. Transforms a directory of templates (of varying types) into HTML.
 
-The styling of the pages is already complete. That said, the `design-files` folder contains both a Figma file, and .jpg of a design if you want to try to build it from scratch. You do not need to use this design at all either, it depends on how you wish to approach the challenge.
+Works with HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, and JavaScript Template Literals.
 
-The `src` folder contains files so that you can get your project up and running without worrying about content for posts/articles. That folder contains:
+## ➡ [Documentation](https://www.11ty.dev/docs/)
 
-- HTML files to use as a base for the different page layouts. These can be turned into the templates that will be used.
-- CSS file for styling the pages
-- 5 blog articles in the `blog` folder
-- images and a logo in the `assets` folder
+- Please star [this repo on GitHub](https://github.com/11ty/eleventy/)!
+- Follow us on Twitter [@eleven_ty](https://twitter.com/eleven_ty)
+- Support [11ty on Open Collective](https://opencollective.com/11ty)
+- [11ty on npm](https://www.npmjs.com/org/11ty)
+- [11ty on GitHub](https://github.com/11ty)
+- Continuous Integration:
+  - [GitHub Actions](https://github.com/11ty/eleventy/actions?query=workflow%3A.github%2Fworkflows%2Fci.yml)
 
-The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them. 
+[![npm Version](https://img.shields.io/npm/v/@11ty/eleventy.svg?style=for-the-badge)](https://www.npmjs.com/package/@11ty/eleventy) [![GitHub issues](https://img.shields.io/github/issues/11ty/eleventy.svg?style=for-the-badge)](https://github.com/11ty/eleventy/issues) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier) [![npm Downloads](https://img.shields.io/npm/dt/@11ty/eleventy.svg?style=for-the-badge)](https://www.npmjs.com/package/@11ty/eleventy)
 
-## DevProjects Challenge
+## Installation
 
-As mentioned, these files are here to help get started with a DevProjects challenge. Please visit the [challenge page](#) to learn more about the challenge.
+```
+npm install @11ty/eleventy --save-dev
+```
 
-## Tutorial
+Read our [Getting Started guide](https://www.11ty.dev/docs/getting-started/).
 
-You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
+## Tests
+
+```
+npm run test
+```
+
+- We use the [ava JavaScript test runner](https://github.com/avajs/ava) ([Assertions documentation](https://github.com/avajs/ava/blob/master/docs/03-assertions.md))
+- ℹ️ To keep tests fast, thou shalt try to avoid writing files in tests.
+- [Code Coverage Statistics](https://github.com/11ty/eleventy/blob/master/docs/coverage.md)
+- [Benchmark for Performance Regressions](https://github.com/11ty/eleventy-benchmark)
+
+## Community Roadmap
+
+- [Top Feature Requests](https://github.com/11ty/eleventy/issues?q=label%3Aneeds-votes+sort%3Areactions-%2B1-desc+label%3Aenhancement) (Add your own votes using the 👍 reaction)
+- [Documentation Requests](https://github.com/11ty/eleventy/issues?q=is%3Aissue+label%3Adocumentation+label%3Aneeds-votes+sort%3Areactions-%2B1-desc) (Add your own votes using the 👍 reaction)
+- [Top Bugs 😱](https://github.com/11ty/eleventy/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Areactions-%2B1-desc) (Add your own votes using the 👍 reaction)
+- [Newest Bugs 🙀](https://github.com/11ty/eleventy/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+
+## Plugins
+
+See the [official docs on plugins](https://www.11ty.dev/docs/plugins/).

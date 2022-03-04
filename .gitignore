@@ -1,13 +1,22 @@
-# dependencies installed by npm
-node_modules
+# Ignore installed npm modules
+node_modules/
 
-# build artefacts
-public
-css
+# Ignore build tool output, e.g. code coverage
+.nyc_output/
+coverage/
 
-# secrets and errors
-.env
-.log
+# Ignore API documentation
+api-docs/
 
-# macOS related files
-.DS_Store
+# Ignore folders from source code editors
+.vscode
+.idea
+
+# Ignore eleventy output when doing manual tests
+_site/
+
+package-lock.json
+
+# Ignore test files
+.cache
+test/stubs-layout-cache/_includes/*.js
